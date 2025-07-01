@@ -3,7 +3,7 @@ from flask_cors import CORS
 import cv2
 import numpy as np
 import os
-from license_plate import detect_license_plate
+from license_plate_detection import detect_license_plate
 from color_detection import detect_license_plate_colordetect_license_plate_color
 from character_recognition import recognize_plate_characters
 

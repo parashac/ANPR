@@ -2,7 +2,7 @@ from flask import Flask, request, redirect, render_template, jsonify, session, s
 import hashlib
 import os
 import cv2
-from license_plate import detect_license_plate
+from license_plate_detection import detect_license_plate
 from color_detection import detect_license_plate_color
 from character_recognition import recognize_plate_characters
 from database import create_user_in_db, get_user_from_db, is_username_taken, is_email_taken
