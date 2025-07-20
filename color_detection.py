@@ -6,8 +6,6 @@ import os
 
 app = Flask(__name__)
 
-
-# API function to detect license plate color and classify vehicle type
 def detect_license_plate_colordetect_license_plate_color(image):
     # Define color ranges in HSV
     red_lower1 = np.array([0, 120, 70])
@@ -69,8 +67,6 @@ def detect_license_plate_colordetect_license_plate_color(image):
 
     return plate_color, plate_category
 
-
-# API endpoint to upload and classify vehicle plate color
 @app.route('/classify_vehicle', methods=['POST'])
 def classify_vehicle():
     if 'file' not in request.files:
@@ -97,7 +93,3 @@ def classify_vehicle():
 
         # Return both plate color and category separately
         return jsonify({"plate_color": plate_color, "plate_category": plate_category})
-
-
-if __name__ == '_main_':
-    app.run(debug=True)
