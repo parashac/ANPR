@@ -25,5 +25,19 @@ A full pipeline project for **Automatic Number Plate Recognition (ANPR)** using 
 5. **CNN-based Character Recognition**
 6. **Output Prediction**
 
+##  Demo Screenshots
+
+###  Input Image
+<img width="506" height="748" alt="Screenshot 2025-03-05 120252" src="https://github.com/user-attachments/assets/ab25d5a2-d8a7-49dd-9ac7-e90e589e019e" />
+
+*This is an input image uploaded from files.*
+
+---
+
+###  Result Output
+<img width="481" height="362" alt="Screenshot 2025-03-05 120419" src="https://github.com/user-attachments/assets/b807a2c2-281e-4f67-890d-342ec043f749" />
+
+*This is the result of the above input image.*
+
 
 
